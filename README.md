@@ -1,2 +1,6 @@
 # Sample-Projects
-Conains sample projects for demonstration purposes
+
+
+This repository contains sample code and various projects that I have worked on in the past.
+
+
