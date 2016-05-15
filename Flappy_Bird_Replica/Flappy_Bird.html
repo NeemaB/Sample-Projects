@@ -2,25 +2,43 @@
 	
 <html>	
 	<head>
-		<title> 
-		
-		Flappy Bird 2 
-	
-		</title>
+		<meta charset="utf-8">
+		<title> Flappy Bird Replica </title>
 
-	<script src="processing-1.4.1.js"></script>
+		<script src="processing-1.4.1.js"></script>
+		<style>
+	
+		body{
+			background-color: rgb(150, 150, 150);
+		}
+	
+		#game {
+			position: relative;
+			top: 30px;
+			left: 450px;
+		}
+		#title {
+			position: relative;
+			left: 580px;
+		}
+		#title2 {
+			position: relative;
+			left:390px;
+		}
+		#title3 {
+			position: relative;
+			left: 620px
+		}
+		</style>
 	
 	</head>
 	<body>
-			
-		<h1> test1 </h1>
-		<h1> swag420 </h1>
-		<p>
-			<b>
-			Hello World
-			</b>
-		</p>
-		<canvas data-processing-sources="Flappy_Bird.pde"></canvas>
+		
+		<h1 id="title"> Hey Folks! </h1>
+		<h2 id="title2"> Here Is a little Flappy Bird Replica that I developed </h2>
+		<h2 id="title3"> Enjoy! </h2>
+		
+		<canvas data-processing-sources="Flappy_Bird.pde" id="game"></canvas>
 		
 	</body>
 	
